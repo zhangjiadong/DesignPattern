@@ -11,7 +11,7 @@ package com.shadow.simple.factory;
 public class TestOperation {
   
   public static void main(String[] args) {
-    Operation operation = OperationFactory.creareOperation("-");
+    Operation operation = OperationFactory.createOperation("-");
     operation.setA(10);
     operation.setB(20);
     System.out.println("result==" + operation.getResult());

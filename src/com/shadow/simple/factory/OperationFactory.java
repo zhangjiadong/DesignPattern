@@ -9,7 +9,7 @@ package com.shadow.simple.factory;
  */
 public class OperationFactory {
   
-  public static Operation creareOperation(final String operation) {
+  public static Operation createOperation(final String operation) {
     Operation oper = null;
     switch (operation) {
       case "+": {
